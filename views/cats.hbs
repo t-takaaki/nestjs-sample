@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>new Cat</title>
+</head>
+<body>
+  <h1>Cat#new</h1>
+  <main>
+    <section>{{ message }}</section>
+    <section>
+      <form action="/cats" method="post">
+        <p>名前: <input type="text" name="name" /></p>
+        <p>年齢: <input type="number" name="number" /></p>
+        <p>血統: <input type="text" name="breed" /></p>
+        <input type="submit" value="送信">
+      </form>
+    </section>
+  </main>
+</body>
+</html>
